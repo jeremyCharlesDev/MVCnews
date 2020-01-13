@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two&display=swap');
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: #F1F1F1;
+    /* font-family: 'Poppins', sans-serif !important; */
+}
+
+img {
+  /* max-width: 100%; */
+  height : auto;
+}
+
+h1, section#article{
+    font-family: 'Poppins', sans-serif !important;
+}
+
+#imgCard{
+  max-height: 50vh;
+  overflow: hidden;
+}
+#imgCard img{
+  position: relative;;
+  top: -40%;
+}
+
+.container{
+  background-color: #fff;
+}
+
+#wrapper{
+  min-height: 100vh;
+}
+#sectionHome{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.card.home a{
+  text-decoration: none;
+  color: black;
+}
+div.card.home i{
+  color: white;
+}
+
+div.card.home img{
+  min-height: 18rem;
+  width: 120%;
+  position: relative;
+  left: -10%;
+}
+
+div.cardHome{
+  overflow: hidden;
+  height: 18rem;
+}
+
+h2{
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 3em;
+}
